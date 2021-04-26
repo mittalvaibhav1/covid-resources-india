@@ -1,0 +1,62 @@
+.searchmodal {
+  user-select: none;
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;
+}
+.searchmodal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+}
+.searchmodal__input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.searchmodal__input > h4 {
+  padding: 10px;
+}
+.searchmodal__input > input {
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  box-shadow: 0 10px 35px rgb(0 0 0 / 10%);
+}
+.searchmodal__inputOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+}
+.searchmodal_inputOptionGroup {
+  display: flex;
+  flex: 0.3;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.searchmodal_inputOptionGroup > label {
+  padding-left: 5px;
+  cursor: pointer;
+}
+.searchmodal_inputOptionGroupAdditional {
+  padding: 5px;
+}
+.searchmodal_inputOptionGroupAdditional > label {
+  padding-left: 5px;
+}
+.searchmodal_inputButton {
+  margin: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(0 0 0 / 10%);
+}

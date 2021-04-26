@@ -1,0 +1,46 @@
+.searchresult__route {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+}
+.searchresult__route img {
+  width: 25px;
+  padding-right: 3px;
+  user-select: none;
+  cursor: pointer;
+}
+.searchresult__route > span {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.searchresult {
+  overflow-y: auto;
+  height: 70vh;
+}
+@media screen and (min-width: 540px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

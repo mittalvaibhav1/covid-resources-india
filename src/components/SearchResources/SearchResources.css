@@ -1,0 +1,25 @@
+.searchresources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  position: relative;
+}
+.searchresources > form > input {
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 40vw;
+  font-weight: 500;
+  box-shadow: 0 10px 35px rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width: 768px) {
+  .searchresources > form > input {
+    width: 70vw;
+  }
+}

@@ -1,0 +1,11 @@
+.toggletheme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+}
+.toggletheme > img {
+  width: 50px;
+  user-select: none;
+  cursor: pointer;
+}

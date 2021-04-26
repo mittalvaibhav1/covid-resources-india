@@ -1,0 +1,27 @@
+.helpfulresources {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0 !important;
+  padding: 5px;
+  border-left: 2px solid #3b9cfc;
+  border-top: 2px solid #3b9cfc;
+  border-bottom: 2px solid #3b9cfc;
+  border-right: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 20;
+}
+.helpfulresources:hover {
+  background-color: rgba(59, 156, 252, 0.2);
+}
+.helpfulresources > img {
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .helpfulresources > img {
+    width: 20px;
+  }
+}
